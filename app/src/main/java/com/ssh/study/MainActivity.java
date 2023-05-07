@@ -84,6 +84,7 @@ findViewById(R.id.btn2).setOnClickListener(mClick);
 
         TextView tvText = dlgFinish.findViewById(R.id.tvText);
         tvText.setText("           화면2로 이동하시겠습니까?           ");
+        tvText.setText("           화면1로 이동하시겠습니까?           ");
 
         dlgFinish.show();
 
